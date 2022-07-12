@@ -3,45 +3,47 @@
 <head>
 	<title>Home Page</title>
 	
-	<center><p>Go to Profile Page <a href="Profile.html">Profile</a>.</p></center>
-	<center><p>Go to Services Page <a href="Services.html">Services</a>.</p></center>
-	<center><p>Go to Settings Page <a href="Settings.html">Settings</a>.</p></center>
-
-
 
 <style>
 	body {
 		font-family: Verdana;
 	}
-
+	#NoDecoration {
+		text-decoration: none;
+	}
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
 	h1{color:yellow;}
 	h4{color:red;}
-	p{color:blue;}
+	p{color: #8EE537;}
 	table,th, td{
 		border: 1px solid black;
 		border-collapse: collapse;
 		padding: 10px;
 	}
 	td{
-		text-align: center;
+		text-align: center;	
 	}
-	.center {
-		margin-left: auto;
-		margin-right: auto;
-	}
+	
 </style>
 
 
 </head>
 <!--This is a Body block. -->
-<body bgcolor="mediumseagreen">
+<body bgcolor="#2E84AE">
+
+	<center><p>Go to Profile Page <a style="color: white;" id="NoDecoration" href="Profile.html">Profile</a>.</p></center>
+	<center><p>Go to Services Page <a style="color: white;" id="NoDecoration" href="Services.html">Services</a>.</p></center>
+	<center><p>Go to Settings Page <a style="color: white;" id="NoDecoration" href="Settings.html">Settings</a>.</p></center>
 
 <header>
 	<p>Posted by Pratik.</p>
 	<p>First Html File.</p>
 </header>
 
-<marquee width="50%" direction="left" height="40%">
+<marquee behavior="alternate" height="40%" style="color: white;">
 	Welcome to My Page Here I declared some uses of Tags
 </marquee>
 
@@ -195,6 +197,11 @@ pratik chouhan normal<rt>Pratik Rajput Ruby</rt>
 
 <span style="color: orange"> span <mark>==</mark> passwd Ubuntu basic command is used to change user password using Terminal. What you have to do is run the below command, where is the username whose password has to change. This command records or snapshots the file permanently in the version history.
 </span>
+<h4>Text Decoration Property: </h4>
+<p style="text-decoration: overline; text-decoration-color: red; text-decoration-style: wavy;">Text Decoration</p>
+<p style="text-decoration: underline; text-decoration-color: red; text-decoration-style: double;">Text Decoration</p>
+<p style="text-decoration: line-through; text-decoration-color: red;">Text Decoration</p>
+<p style="text-decoration: overline underline; text-decoration-color: red; text-decoration-style: dotted;">Text Decoration</p>
 
 
 <!--Div Tag -->
