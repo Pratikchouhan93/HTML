@@ -1,5 +1,3 @@
-
-
 class Parent
   @things = []
   def self.things

@@ -1,11 +1,11 @@
-x=[1, 2, 5, 4]
-y=[1, 2, 5, 4]
+x = [1, 2, 5, 4]
+y = [1, 2, 5, 4]
 
-b=x.map { |i| i+1 }
-c=y.each { |n| n+1 }.object_id === y.object_id
+b = x.map { |i| i+1 }
+c = y.each { |n| n+1 }.object_id === y.object_id
 
 for m in x 
-print m
+  print m
 end
 
 puts "\n#{m}"##Shows last m value of "for loop"
