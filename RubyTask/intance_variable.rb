@@ -1,12 +1,12 @@
 class A
 	def initialize(a, b, c)
-		@@a=10
-		@a=a
-		@b=b
-		@c=c
+		@@a = 10
+		@a = a
+		@b = b
+		@c = c
 	end
 	# puts " pratik #{@a},#{@b},#{@c}"
-	def startA(a, b)
+	def start_a(a, b)
 		puts "Class A print"
 		puts a
 		puts b
@@ -22,11 +22,11 @@ class A
 end
 
 # class B
-# 	def startB
+# 	def start_b
 # 		puts "Class B print"
 		
 # 	end
 # end
-obj=A.new 20,30,10
-obj.startA 10, 42
+obj = A.new 20, 30, 10
+obj.start_a 10, 42
 
